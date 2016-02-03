@@ -18,6 +18,7 @@
 		68816AAD1BBB35EC000569CE /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68816AA91BBB35E8000569CE /* PlanetController.swift */; };
 		68816AAE1BBB35EC000569CE /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68816AAA1BBB35E8000569CE /* Planet.swift */; };
 		ABA96B761C62B53700863DFD /* PlanetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96B751C62B53700863DFD /* PlanetListViewController.swift */; };
+		ABA96B781C62C32F00863DFD /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96B771C62C32F00863DFD /* PlanetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		68816AA91BBB35E8000569CE /* PlanetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
 		68816AAA1BBB35E8000569CE /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		ABA96B751C62B53700863DFD /* PlanetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetListViewController.swift; sourceTree = "<group>"; };
+		ABA96B771C62C32F00863DFD /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				68816A7B1BBB3591000569CE /* AppDelegate.swift */,
 				68816A7F1BBB3591000569CE /* Main.storyboard */,
+				ABA96B771C62C32F00863DFD /* PlanetDetailViewController.swift */,
 				ABA96B751C62B53700863DFD /* PlanetListViewController.swift */,
 				68816AA91BBB35E8000569CE /* PlanetController.swift */,
 				68816AAA1BBB35E8000569CE /* Planet.swift */,
@@ -266,6 +269,7 @@
 				ABA96B761C62B53700863DFD /* PlanetListViewController.swift in Sources */,
 				68816AAB1BBB35E8000569CE /* PlanetController.swift in Sources */,
 				68816A7C1BBB3591000569CE /* AppDelegate.swift in Sources */,
+				ABA96B781C62C32F00863DFD /* PlanetDetailViewController.swift in Sources */,
 				68816AAC1BBB35E8000569CE /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

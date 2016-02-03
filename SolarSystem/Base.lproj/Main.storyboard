@@ -49,6 +49,29 @@
             </objects>
             <point key="canvasLocation" x="1159" y="422"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="sSE-xO-qjR">
+            <objects>
+                <viewController id="odD-kB-alK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qZK-RT-Rnz"/>
+                        <viewControllerLayoutGuide type="bottom" id="hy0-W1-7wG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s03-Sx-uSW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3QR-ZY-B0O">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5wB-iX-Wgk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1782" y="422"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Vjx-cL-hhx">
             <objects>
