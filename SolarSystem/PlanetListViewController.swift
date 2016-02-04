@@ -83,14 +83,46 @@ class PlanetListViewController: UITableViewController {
     }
     */
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "toPlanetDetail" {
+            let planetDetailViewController = segue.destinationViewController as! PlanetListViewController
+            
+            if let planetSelected = sender as? PlanetDetailViewController, let indexPath = tableView.indexPathForCell(planetSelected){
+                let selectedPlanet = PlanetController.planets[indexPath.row]
+                PlanetController.planets = planetSelected
+            }
+        }
     }
-    */
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
